@@ -1,0 +1,29 @@
+The deposits are:
+Account SAV-001: Deposited 100.0 :New balance: 600.0
+Account CUR-001: Deposited 100.0 :New balance: 300.0
+Account SAV-002: Deposited 100.0 :New balance: 1100.0
+Account CUR-002: Deposited 100.0 :New balance: 150.0
+
+The withdrawals are:
+Account SAV-001: Withdrawal of 550.0 rejected. Balance cannot go below the minimum of 100.0.
+Account CUR-001: Withdrew 550.0 :New balance: -250.0
+Account SAV-002: Withdrew 550.0 :New balance: 550.0
+Account CUR-002: Withdrew 550.0 :New balance: -400.0
+
+End of month amounts are:
+Account SAV-001: Interest added: 18.0 :New balance: 618.0
+Account CUR-001: Maintenance fee of 20.0 deducted :New balance: -270.0
+Account SAV-002: Interest added: 16.5 :New balance: 566.5
+Account CUR-002: Maintenance fee of 20.0 deducted :New balance: -420.0
+
+The final balances are:
+Balance: 618.0
+Balance: -270.0
+Balance: 566.5
+Balance: -420.0
+
+Edge Case 1: Savings withdrawal below minimum
+Account SAV-003: Withdrawal of 100.0 rejected. Balance cannot go below the minimum of 100.0.
+
+Edge Case 2: Current account into overdraft
+Account CUR-003: Withdrew 400.0 | New balance: -300.0
